@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-wal-write-ahead-log-recovery-skill",
+  "version": "1.0.0",
+  "description": "Write-Ahead Logging (WAL) crash recovery engine implementing ARIES redo and undo passes.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
